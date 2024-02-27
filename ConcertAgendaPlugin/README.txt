@@ -10,7 +10,8 @@ Plugin to manage, display, and add new events. In particular made for concerts.
 
 == Installation ==
 
-1. Activate the plugin through the 'Plugins' menu in WordPress
+
+1. Upload the .zip to your wordpress plugins
 2. place the desired shortcodes on your chosen pages.
 
 === Short codes ===
