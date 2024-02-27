@@ -1,0 +1,89 @@
+.concert-carousel .card {
+    margin: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.concert-carousel .card-image img {
+    width: 100%;
+    display: block;
+    height: 250px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.concert-carousel .card-body {
+    padding: 15px;
+    background: #FFF;
+}
+
+.concert-carousel .card-title {
+    margin-bottom: 15px;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.concert-carousel .card-text {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.concert-carousel .card-link {
+    display: inline-block;
+    background: #e70909;
+    color: #FFF;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: .2s;
+}
+
+.concert-carousel .card-link:hover {
+    background: #b70000;
+    color: white;
+}
+.concert-carousel .owl-prev,
+.concert-carousel .owl-next {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    color: #e70909 !important;
+    background-color: white!important;
+    font-size: 40px !important;
+    font-weight: bold !important;
+    display: block;
+    width: 2rem;
+    text-align: center;
+    transition: .2s;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+    color: #191919 !important;
+    background-color: #ffffff!important;
+}
+
+.owl-prev {
+    left: -40px;
+}
+
+.owl-next {
+    right: -40px;
+}
+
+@media (max-width: 768px) {
+  .concert-carousel .owl-prev,
+  .concert-carousel .owl-next {
+    display: none !important;
+  }
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #e70909;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span{
+    transition: .5s!important;
+}

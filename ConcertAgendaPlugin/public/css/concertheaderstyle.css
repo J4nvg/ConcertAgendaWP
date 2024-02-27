@@ -1,0 +1,19 @@
+
+.navigation, .entry-meta, .comments-area {
+    display: none;
+}
+
+.ConcertDatum {
+    background-color: var(--e-global-color-secondary);
+    padding: 1rem;
+    display: inherit;
+    font-size: Large;
+    color: white;
+    margin-top: 6em;
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-line-break {
+        display: none;
+    }
+}
